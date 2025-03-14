@@ -1,7 +1,7 @@
 /.idea
 /.vscode
 /.venv
-
+/.output
 
 ################ Python #################
 __pycache__/

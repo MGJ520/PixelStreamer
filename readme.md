@@ -1,5 +1,3 @@
-以下是该项目的README文档：
-
 # PixelStreamer - 实时屏幕流媒体解决方案
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
@@ -20,7 +18,8 @@ PixelStreamer 是一个高效实时的屏幕流媒体解决方案，提供以下
 
 ## 主要特性
 ### ---项目主要用于PPT展示，Web投屏多平台兼容---
-
+![img.png](readme/img1.png)
+![img.png](readme/img2.png)
 ### 智能画面传输
 ```python
 # 使用动态差异检测算法
