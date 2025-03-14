@@ -1,5 +1,3 @@
-以下是该项目的README文档：
-
 # PixelStreamer - 实时屏幕流媒体解决方案
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
