@@ -45,11 +45,11 @@ pip install -r requirements.txt
 
 `requirements.txt` 内容：
 ```
-flask>=2.0.3
-opencv-python>=4.5.5
-pyautogui>=0.9.53
-mss>=6.1.0
-numpy>=1.21.5
+flask
+opencv-python
+pyautogui
+mss>
+numpy
 ```
 
 ### 系统要求
@@ -84,11 +84,7 @@ python main.py
 ```python
 REFRESH_INTERVAL = 0.25       # 基础刷新间隔（秒）
 CHANGE_THRESHOLD = 500        # 画面变化阈值
-QUALITY_LEVELS = {
-    'high': 70,               # 默认质量
-    'medium': 50,             # 中等负载质量
-    'low': 10                 # 高负载质量
-}
+QUALITY_LEVELS   = 50         # 中等负载质量
 ```
 
 ## 技术架构
@@ -104,6 +100,15 @@ graph TD
     G --> H[网络传输层]
 ```
 
+
+## 项目打包
+```
+pip3 install auto-py-to-exe
+```
+#### cmd运行
+```
+auto-py-to-exe
+```
 ## 贡献指南
 
 欢迎通过GitHub提交：
